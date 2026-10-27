@@ -1,0 +1,19 @@
+damage,size,operation,labour_hours,note
+dent,small,Paintless dent repair,1.0,
+dent,medium,Panel repair and refinish,3.0,
+dent,large,Replace panel and refinish,6.0,Check for hidden structural damage
+scratch,small,Polish or smart repair,0.5,
+scratch,medium,Prepare and refinish panel,2.0,
+scratch,large,Refinish panel and blend adjacent,3.5,
+scratch_dent,small,Panel repair and refinish,2.0,
+scratch_dent,medium,Panel repair and refinish,3.5,
+scratch_dent,large,Replace panel and refinish,6.0,Check for hidden structural damage
+paint chip,any,Touch-in or smart repair,0.5,
+corrosion,small,Treat corrosion and refinish,1.5,
+corrosion,medium,Cut out corrosion and repair,4.0,
+corrosion,large,Replace panel,6.0,Inspect underside and structure
+cracked,any,Replace or plastic-weld part,2.0,Usually bumper or trim
+broken part,any,Replace part,2.5,Identify part number from VIN
+missing part,any,Supply and fit part,1.5,Identify part number from VIN
+cracked_glass,any,Replace glass,1.5,Check ADAS camera recalibration
+tire_flat,any,Replace or repair tyre,0.5,Check wheel for damage

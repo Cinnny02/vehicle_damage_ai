@@ -1,0 +1,116 @@
+{
+  "device": "mps",
+  "imgsz": 640,
+  "pretrained": {
+    "weights_start": "yolo11n.pt",
+    "epochs": 20,
+    "train_minutes": 1035.6,
+    "box_map50": 0.237,
+    "box_map50_95": 0.128,
+    "precision": 0.464,
+    "recall": 0.237,
+    "per_class": {
+      "Broken part": {
+        "box_map50": 0.139,
+        "precision": 0.163,
+        "recall": 0.143
+      },
+      "Corrosion": {
+        "box_map50": 0.05,
+        "precision": 1.0,
+        "recall": 0.0
+      },
+      "Cracked": {
+        "box_map50": 0.133,
+        "precision": 0.685,
+        "recall": 0.091
+      },
+      "Dent": {
+        "box_map50": 0.266,
+        "precision": 0.713,
+        "recall": 0.179
+      },
+      "Paint chip": {
+        "box_map50": 0.111,
+        "precision": 0.331,
+        "recall": 0.132
+      },
+      "Scratch": {
+        "box_map50": 0.102,
+        "precision": 0.244,
+        "recall": 0.158
+      },
+      "cracked_glass": {
+        "box_map50": 0.266,
+        "precision": 0.351,
+        "recall": 0.286
+      },
+      "scratch_dent": {
+        "box_map50": 0.157,
+        "precision": 0.169,
+        "recall": 0.143
+      },
+      "tire_flat": {
+        "box_map50": 0.913,
+        "precision": 0.522,
+        "recall": 1.0
+      }
+    }
+  },
+  "scratch": {
+    "weights_start": "yolo11n.yaml",
+    "epochs": 20,
+    "train_minutes": 40.0,
+    "box_map50": 0.165,
+    "box_map50_95": 0.1,
+    "precision": 0.976,
+    "recall": 0.127,
+    "per_class": {
+      "Broken part": {
+        "box_map50": 0.067,
+        "precision": 1.0,
+        "recall": 0.0
+      },
+      "Corrosion": {
+        "box_map50": 0.048,
+        "precision": 1.0,
+        "recall": 0.0
+      },
+      "Cracked": {
+        "box_map50": 0.0,
+        "precision": 1.0,
+        "recall": 0.0
+      },
+      "Dent": {
+        "box_map50": 0.11,
+        "precision": 1.0,
+        "recall": 0.0
+      },
+      "Paint chip": {
+        "box_map50": 0.001,
+        "precision": 1.0,
+        "recall": 0.0
+      },
+      "Scratch": {
+        "box_map50": 0.011,
+        "precision": 1.0,
+        "recall": 0.0
+      },
+      "cracked_glass": {
+        "box_map50": 0.191,
+        "precision": 0.792,
+        "recall": 0.143
+      },
+      "scratch_dent": {
+        "box_map50": 0.06,
+        "precision": 1.0,
+        "recall": 0.0
+      },
+      "tire_flat": {
+        "box_map50": 0.995,
+        "precision": 0.99,
+        "recall": 1.0
+      }
+    }
+  }
+}

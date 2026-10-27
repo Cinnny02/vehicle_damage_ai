@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.DS_Store
+.env
+*.zip
+data/
+runs/
+raw/
+feedback/
+*.pt
+!models/damage_detector.pt
+hf_*.json
+hf_check_done*.txt
+check_dataset.command

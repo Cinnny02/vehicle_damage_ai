@@ -1,0 +1,64 @@
+{
+  "classes": [
+    "Broken part",
+    "Corrosion",
+    "Cracked",
+    "Dent",
+    "Missing part",
+    "Paint chip",
+    "Scratch",
+    "cracked_glass",
+    "scratch_dent",
+    "tire_flat"
+  ],
+  "splits": {
+    "train": {
+      "images": 2133,
+      "images_without_damage": 6,
+      "instances": {
+        "scratch_dent": 489,
+        "Dent": 885,
+        "Scratch": 2186,
+        "Paint chip": 1078,
+        "Corrosion": 179,
+        "cracked_glass": 276,
+        "Cracked": 250,
+        "Missing part": 114,
+        "Broken part": 384,
+        "tire_flat": 123
+      }
+    },
+    "val": {
+      "images": 173,
+      "images_without_damage": 0,
+      "instances": {
+        "Dent": 60,
+        "tire_flat": 12,
+        "Scratch": 170,
+        "Broken part": 33,
+        "cracked_glass": 30,
+        "scratch_dent": 40,
+        "Paint chip": 79,
+        "Cracked": 21,
+        "Missing part": 9,
+        "Corrosion": 4
+      }
+    },
+    "test": {
+      "images": 51,
+      "images_without_damage": 0,
+      "instances": {
+        "Corrosion": 10,
+        "Paint chip": 30,
+        "Broken part": 14,
+        "Cracked": 11,
+        "Dent": 39,
+        "Scratch": 76,
+        "cracked_glass": 7,
+        "scratch_dent": 7,
+        "tire_flat": 3
+      }
+    }
+  },
+  "problems": []
+}
